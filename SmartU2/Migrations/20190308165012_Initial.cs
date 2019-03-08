@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SmartU2.Migrations
@@ -16,7 +17,8 @@ namespace SmartU2.Migrations
                     Estado = table.Column<bool>(nullable: false),
                     PuntoCardinalx = table.Column<string>(nullable: true),
                     PuntoCardinaly = table.Column<string>(nullable: true),
-                    Placa = table.Column<string>(nullable: true)
+                    Placa = table.Column<string>(nullable: true),
+                    IdZona = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -42,6 +44,21 @@ namespace SmartU2.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Vehiculo",
+                columns: table => new
+                {
+                    idVehiculo = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    placa = table.Column<string>(nullable: true),
+                    fechaHora_entrada = table.Column<DateTime>(nullable: false),
+                    fechaHora_salida = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Vehiculo", x => x.idVehiculo);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Zona",
                 columns: table => new
                 {
@@ -63,6 +80,9 @@ namespace SmartU2.Migrations
 
             migrationBuilder.DropTable(
                 name: "Usuario");
+
+            migrationBuilder.DropTable(
+                name: "Vehiculo");
 
             migrationBuilder.DropTable(
                 name: "Zona");

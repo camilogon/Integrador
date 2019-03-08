@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 
 
+
 const appRoutes: Routes = [
   { path: '', component: HomeComponent }
 
@@ -19,6 +20,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes)
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

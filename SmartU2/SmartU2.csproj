@@ -2,9 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Frontend\SmartU\src\app\Componentes\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

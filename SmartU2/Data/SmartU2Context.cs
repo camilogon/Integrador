@@ -19,5 +19,7 @@ namespace SmartU2.Models
         public DbSet<SmartU2.Models.SlotParqueadero> SlotParqueadero { get; set; }
 
         public DbSet<SmartU2.Models.Usuario> Usuario { get; set; }
+
+        public DbSet<SmartU2.Models.Vehiculo> Vehiculo { get; set; }
     }
 }
