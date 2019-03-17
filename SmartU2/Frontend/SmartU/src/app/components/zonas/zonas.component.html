@@ -1,0 +1,32 @@
+<!--
+<mat-grid-list cols="4" rowHeight="350px" gutterSize="5px">
+
+  <mat-grid-tile *ngFor="let zona of zonas; let i = index" [colspan]="zona.cols" [rowspan]="zona.rows" [style.border]="zona.border">
+    <a [routerLink]="['/zona', i]" class="btn">
+      <mat-grid-tile-header>
+        <h3>{{zona.nombre}}</h3>
+      </mat-grid-tile-header>
+
+      <img src="../../../assets/mapa.png">
+    </a>
+  </mat-grid-tile>
+
+</mat-grid-list>
+
+-->
+<h1 style="text-align:center">Zonas </h1>
+
+<div class='card-columns'>
+  <div class="card animated fadeIn fast img_zonas" *ngFor="let zona of zonas; let i = index" >
+    <img [src]="zona.img" class="card-img-top" [alt]="zona.nombre" >
+    <div class="card-body">
+      <h5 class="card-title">{{zona.nombre}}</h5>
+      <p class="card-text">{{zona.espacios}}</p>
+    </div>
+    
+      <!--<button type="button" class="btn btn-outline-primary btn-block">Ver más...</button>-->
+      <a [routerLink]="['zona', i]" class="btn btn-outline-primary btn-block"> Ver más...</a>
+
+  </div>
+
+</div>

@@ -12,3 +12,17 @@ C:\Users\Camilo\source\repos\SmartU2\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.Raz
 C:\Users\Camilo\source\repos\SmartU2\SmartU2\bin\Debug\netcoreapp2.1\SmartU2.pdb
 C:\Users\Camilo\source\repos\SmartU2\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.dll
 C:\Users\Camilo\source\repos\SmartU2\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.pdb
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.csprojAssemblyReference.cache
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.dll
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.pdb
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\bin\Debug\netcoreapp2.1\SmartU2.deps.json
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\bin\Debug\netcoreapp2.1\SmartU2.runtimeconfig.json
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\bin\Debug\netcoreapp2.1\SmartU2.runtimeconfig.dev.json
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\bin\Debug\netcoreapp2.1\SmartU2.dll
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\bin\Debug\netcoreapp2.1\SmartU2.pdb
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.csproj.CoreCompileInputs.cache
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.RazorAssemblyInfo.cache
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.RazorAssemblyInfo.cs
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.AssemblyInfoInputs.cache
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.AssemblyInfo.cs
+C:\Users\Luis Daniel Murillo\Integrador\SmartU2\obj\Debug\netcoreapp2.1\SmartU2.RazorTargetAssemblyInfo.cache

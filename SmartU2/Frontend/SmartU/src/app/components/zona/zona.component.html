@@ -1,0 +1,22 @@
+<h1>{{zona.nombre}} <small>{{zona.espacios}}</small></h1>
+
+<div class='row'>
+  <div class='col-md-8'>
+    <img [src]='zona.img' class='img-fluid' [alt]='zona.nombre'>
+    <br><br>
+    <a [routerLink]="['/zonas']" class="btn btn-outline-primary btn-block"> Regresar </a>
+  </div>
+
+  <div class='col-md-8'>
+    <h3>{{zona.nombre}}</h3>
+    <hr>
+    <p>
+      {{zona.espacios}}
+    </p>
+    <div>
+      <!--<img *ngIf="heroe.casa =='Marvel'" class="img-logo" src='../../../assets/img/marvel.png' alt=''>
+  <img *ngIf="heroe.casa =='DC'" class="img-logo" src='../../../assets/img/DC.jpg' alt=''>-->
+    </div>
+  </div>
+
+</div>
