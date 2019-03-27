@@ -1,0 +1,14 @@
+.btn_regresar {
+  width: 58.5vw;
+  background-color: green;
+  border-color: white;
+  color: white;
+}
+
+.nombreZona {
+  width: 58.5vw;
+  background-color: #d3e5a7;
+  border-radius: 3vw;
+  text-align: center;
+  margin-top: 27px;
+}
