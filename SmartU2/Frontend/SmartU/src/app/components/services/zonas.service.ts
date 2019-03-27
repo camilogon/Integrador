@@ -5,36 +5,36 @@ export class ZonasService {
 
   private zonas: Zona[] = [
     {
-      nombre: "Tía",
+      nombre: "Principial",
       espacios: 10,
-      img: "../../assets/mapa.png"
+      img: "../../assets/Principal.png"
 
     },
     {
-      nombre: "El Parque",
+      nombre: "Entrada",
       espacios: 20,
-      img: "../../assets/mapa.png"
+      img: "../../assets/Entrada.png"
    
     },
     {
-      nombre: "Parrilla",
+      nombre: "BLoque C1",
       espacios: 15,
-      img: "../../assets/mapa.png"
+      img: "../../assets/BloqueC1.png"
      },
     {
-      nombre: "Entrada",
+      nombre: "BloqueC2",
       espacios: 20,
-      img: "../../assets/mapa.png"
+      img: "../../assets/BloqueC2.png"
     },
     {
-      nombre: "Bloque C",
+      nombre: "BloqueC2",
       espacios: 20,
-      img: "../../assets/mapa.png"
+      img: "../../assets/BloqueC2.png"
     },
     {
-      nombre: "Principal",
+      nombre: "BloqueC2",
       espacios: 20,
-      img: "../../assets/mapa.png"
+      img: "../../assets/BloqueC2.png"
     }
   ];
 

@@ -16,9 +16,9 @@
 -->
 <h1 style="text-align:center">Zonas </h1>
 
-<div class='card-columns'>
+<div class='card-columns' >
   <div class="card animated fadeIn fast img_zonas" *ngFor="let zona of zonas; let i = index" >
-    <img [src]="zona.img" class="card-img-top" [alt]="zona.nombre" >
+    <img [src]="zona.img" class="card-img-top ima_zonas" [alt]="zona.nombre" >
     <div class="card-body">
       <h5 class="card-title">{{zona.nombre}}</h5>
       <p class="card-text">{{zona.espacios}}</p>
