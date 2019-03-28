@@ -24,6 +24,7 @@ import { APP_ROUTING } from '../app/app.routes'
 import { ZonasService } from '../app/components/services/zonas.service';
 import { AuthService } from '../app/components/services/auth.service';
 import { AuthGuardService } from '../app/components/services/auth-guard.service'
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -42,9 +43,8 @@ import { AuthGuardService } from '../app/components/services/auth-guard.service'
     MatCardModule,
     MatToolbarModule,
     MatButtonModule,
-    MatGridListModule
-
-    
+    MatGridListModule,
+    HttpClientModule
   ],
   providers: [
     ZonasService,

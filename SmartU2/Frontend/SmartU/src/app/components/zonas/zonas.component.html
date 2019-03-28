@@ -12,13 +12,13 @@
   </mat-grid-tile>
 
 </mat-grid-list>
-
+<img [src]="zona.img" class="card-img-top ima_zonas" [alt]="zona.nombre" >
 -->
 <h1 style="text-align:center">Zonas </h1>
 
 <div class='card-columns' >
   <div class="card animated fadeIn fast img_zonas" *ngFor="let zona of zonas; let i = index" >
-    <img [src]="zona.img" class="card-img-top ima_zonas" [alt]="zona.nombre" >
+    <img [src]="zona.img" class="card-img-top ima_zonas" >
     <div class="card-body">
       <h5 class="card-title">{{zona.nombre}}</h5>
       <p class="card-text">{{zona.espacios}}</p>
@@ -27,6 +27,5 @@
       <!--<button type="button" class="btn btn-outline-primary btn-block">Ver más...</button>-->
       <a [routerLink]="['zona', i]" class="btn btn-outline-primary btn-block"> Ver más...</a>
 
-  </div>
-
+    </div>
 </div>
