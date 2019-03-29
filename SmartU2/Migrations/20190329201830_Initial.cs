@@ -65,7 +65,8 @@ namespace SmartU2.Migrations
                     IdZona = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Nombre = table.Column<string>(nullable: true),
-                    Capacidad = table.Column<int>(nullable: false)
+                    Capacidad = table.Column<int>(nullable: false),
+                    ruta = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

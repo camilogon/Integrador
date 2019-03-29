@@ -11,3 +11,4 @@ C:\Users\Camilo\source\repos\integrador\Integrador\SmartU2\obj\Release\netcoreap
 C:\Users\Camilo\source\repos\integrador\Integrador\SmartU2\obj\Release\netcoreapp2.1\SmartU2.RazorTargetAssemblyInfo.cache
 C:\Users\Camilo\source\repos\integrador\Integrador\SmartU2\obj\Release\netcoreapp2.1\SmartU2.dll
 C:\Users\Camilo\source\repos\integrador\Integrador\SmartU2\obj\Release\netcoreapp2.1\SmartU2.pdb
+C:\Users\Camilo\source\repos\integrador\Integrador\SmartU2\obj\Release\netcoreapp2.1\SmartU2.csprojAssemblyReference.cache

@@ -90,6 +90,8 @@ namespace SmartU2.Migrations
 
                     b.Property<string>("Nombre");
 
+                    b.Property<string>("ruta");
+
                     b.HasKey("IdZona");
 
                     b.ToTable("Zona");

@@ -10,7 +10,7 @@ using SmartU2.Models;
 namespace SmartU2.Migrations
 {
     [DbContext(typeof(SmartU2Context))]
-    [Migration("20190308165012_Initial")]
+    [Migration("20190329201830_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -91,6 +91,8 @@ namespace SmartU2.Migrations
                     b.Property<int>("Capacidad");
 
                     b.Property<string>("Nombre");
+
+                    b.Property<string>("ruta");
 
                     b.HasKey("IdZona");
 

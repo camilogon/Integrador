@@ -19,18 +19,19 @@ export class ZonasComponent implements OnInit{
   public Zona: any;
 
   zonas: Zona[] = [];
-  constructor(private _zonasService: ZonasService){ 
-    _zonasService.get().subscribe((data: any) => this.Zonas = data);
+  constructor(private zonasService: ZonasService){ 
+    zonasService.get().subscribe((data: any) => this.Zonas = data);
   }
 
   ngOnInit() {
-    this.zonas = this._zonasService.getZonas()
-    for (var _i = 0; _i < this.Zonas.length; _i++) {
-      this.zonas[_i].nombre=this.Zonas[_i].nombre;
-      this.zonas[_i].espacios=this.Zonas[_i].capaccidad;
-  }
+    this.zonas = this.zonasService.getZonas()
+   /* for (var i = 0; i < this.Zonas.length; i++) {
+      this.zonas[i].nombre=this.Zonas[i].nombre;
+      this.zonas[i].espacios=this.Zonas[i].capaccidad;
+    }*/
     console.log(this.zonas)
   }
+
 }
 
 

@@ -12,5 +12,6 @@ namespace SmartU2.Models
         public int IdZona { set; get; }
         public string Nombre { set; get; }
         public int Capacidad { set; get; }
+        public string ruta { set; get; }
     }
 }
