@@ -9,6 +9,19 @@ using SmartU2.Models;
 
 namespace SmartU2.Controllers
 {
+
+    /*
+        Clase controladora de los Slots
+        En esta clase se realiza un servicio rest Full
+        posee metodos get, post, put y delete
+        para los metodos get y post solo se necesita la sguiente URL
+        // GET: api/Usuarios
+        // GET: api/Usuarios/(IdUsuario)
+        // POST: api/Usuarios
+        // PUT: api/Usuarios/(IdUsuario)
+        // DELETE: api/Usuarios/(IdUsuario)
+        para en envio de datos al frontend
+    */
     [Route("api/[controller]")]
     [ApiController]
     public class UsuariosController : ControllerBase

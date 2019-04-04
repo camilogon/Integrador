@@ -9,6 +9,18 @@ using SmartU2.Models;
 
 namespace SmartU2.Controllers
 {
+    /*
+        Clase controladora de los Slots
+        En esta clase se realiza un servicio rest Full
+        posee metodos get, post, put y delete
+        para los metodos get y post solo se necesita la sguiente URL
+        // GET: api/SlotParqueaderoes
+        // GET: api/SlotParqueaderoes/(SlotParqueaderos)
+        // POST: api/SlotParqueaderoes
+        // PUT: api/SlotParqueaderoes/(SlotParqueaderos)
+        // DELETE: api/SlotParqueaderoes/(SlotParqueaderoes)
+        para en envio de datos al frontend
+    */
     [Route("api/[controller]")]
     [ApiController]
     public class SlotParqueaderoesController : ControllerBase
@@ -21,6 +33,7 @@ namespace SmartU2.Controllers
         }
 
         // GET: api/SlotParqueaderoes
+        
         [HttpGet]
         public IEnumerable<SlotParqueadero> GetSlotParqueadero()
         {

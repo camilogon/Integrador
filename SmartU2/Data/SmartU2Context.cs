@@ -9,6 +9,10 @@ namespace SmartU2.Models
 {
     public class SmartU2Context : DbContext
     {
+        /*
+         * clase que se encarga de realizar la conexion con la base de datos
+         * utilizando los modelos para conectarlos con la base de datos
+         */
         public SmartU2Context (DbContextOptions<SmartU2Context> options)
             : base(options)
         {
